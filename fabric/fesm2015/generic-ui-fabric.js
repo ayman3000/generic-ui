@@ -3,7 +3,7 @@ import { CommonModule, isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { takeUntil, distinctUntilChanged, filter, skip, take, debounceTime, map } from 'rxjs/operators';
 import { BehaviorSubject, Subject, timer, fromEvent, ReplaySubject } from 'rxjs';
-import { fromEvent as fromEvent$1 } from 'rxjs/';
+import { fromEvent as fromEvent$1 } from 'rxjs';
 
 var Theme;
 (function (Theme) {
